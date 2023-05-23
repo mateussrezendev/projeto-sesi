@@ -1,0 +1,136 @@
+
+.pe a:hover {
+    padding: 15px;
+    }        
+
+/* Estilo geral do corpo da página */
+.corpo {
+    font-family: 'Courier New', Courier, monospace;
+background-color: #f4d58d;
+margin: 0;
+padding: 0;
+}
+
+/* Estilo do cabeçalho */
+.cabeca {
+    font-family: 'Courier New', Courier, monospace;
+background-color: #8d0801;
+color: white;
+padding: 10px;
+}
+
+/* Estilo do menu de navegação */
+.nave {
+background-color: #bf0603;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+
+/* Estilo dos links do menu de navegação */
+.nave a {
+color: white;
+text-decoration: none;
+}
+
+/* Estilo dos links do menu de navegação ao passar o mouse */
+.nave a:hover {
+color: black;
+background-color: white;
+padding: 5px;
+border-radius: 5px;
+}
+
+/* Estilo do conteúdo principal */
+.principal {
+    font-family: 'Courier New', Courier, monospace;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+
+/* Estilo do título da seção */
+.principal h1 {
+    font-family: 'Courier New', Courier, monospace;
+color: var(--cor-primaria);
+font-size: 32px;
+margin: 0;
+padding: 10px;
+}
+
+/* Estilo do texto da seção */
+.principal p {
+    font-family: 'Courier New', Courier, monospace;
+font-size: 18px;
+line-height: 1.5;
+text-align: justify;
+margin: 0 0 20px 0;
+}
+
+/* Estilo da imagem */
+.principal img {
+max-width: 100%;
+height: auto;
+margin: 20px 0;
+}
+
+
+/* Estilo do rodapé */
+.footer {
+background-color: #001427;
+color: white;
+padding: 10px;
+text-align: center;
+}
+
+/* Seção: Atleta do futuro */
+.atletadofuturo {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#708d81;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(55, 1, 1);
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+/* Contato */
+.contato {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:#001427;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.wrapper-img{
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.wrapper-img:hover{
+    filter: none;
+    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+}
+.wrapper-img2{
+    filter: brightness(1.2);
+    object-fit: cover;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.wrapper-img2:hover{
+  filter: none;
+
+  transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+}
